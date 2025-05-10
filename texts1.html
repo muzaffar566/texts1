@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Text and Color Styles</title>
+  <style>
+    /* Universal selector to apply base font */
+    * {
+      font-family: Arial, sans-serif;
+    }
+
+    /* 1. Font family examples */
+    .font-serif {
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .font-sans {
+      font-family: Verdana, Geneva, sans-serif;
+    }
+
+    .font-mono {
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    /* 2. Font size and weight */
+    .big-bold {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .small-light {
+      font-size: 14px;
+      font-weight: 300;
+    }
+
+    /* 3. Text color using different methods */
+    .color-name {
+      color: red;
+    }
+
+    .color-hex {
+      color: #0066cc;
+    }
+
+    .color-rgb {
+      color: rgb(0, 128, 0); /* green */
+    }
+
+    .color-hsl {
+      color: hsl(300, 100%, 25%); /* purple */
+    }
+
+    /* 4. Background color */
+    .bg-yellow {
+      background-color: yellow;
+      padding: 5px;
+    }
+
+    .bg-gradient {
+      background: linear-gradient(to right, pink, lightblue);
+      padding: 10px;
+    }
+
+    /* 5. Text transformations */
+    .uppercase {
+      text-transform: uppercase;
+    }
+
+    .capitalize {
+      text-transform: capitalize;
+    }
+
+    .lowercase {
+      text-transform: lowercase;
+    }
+
+    /* 6. Text decoration */
+    .underline {
+      text-decoration: underline;
+    }
+
+    .line-through {
+      text-decoration: line-through;
+    }
+
+    .overline {
+      text-decoration: overline;
+    }
+
+    /* 7. Text alignment and spacing */
+    .centered {
+      text-align: center;
+      letter-spacing: 2px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 class="centered">CSS Font and Color Styles Demo</h1>
+
+  <p class="font-serif">This is a serif font.</p>
+  <p class="font-sans">This is a sans-serif font.</p>
+  <p class="font-mono">This is a monospace font.</p>
+
+  <p class="big-bold">This text is big and bold.</p>
+  <p class="small-light">This text is small and light.</p>
+
+  <p class="color-name">This text uses a color name.</p>
+  <p class="color-hex">This text uses a hex color (#0066cc).</p>
+  <p class="color-rgb">This text uses an RGB color.</p>
+  <p class="color-hsl">This text uses an HSL color.</p>
+
+  <p class="bg-yellow">This text has a yellow background.</p>
+  <p class="bg-gradient">This text has a gradient background.</p>
+
+  <p class="uppercase">this text is uppercase</p>
+  <p class="capitalize">this text is capitalized</p>
+  <p class="lowercase">THIS TEXT IS LOWERCASE</p>
+
+  <p class="underline">This text is underlined.</p>
+  <p class="line-through">This text has a line through it.</p>
+  <p class="overline">This text has an overline.</p>
+
+</body>
+</html>
